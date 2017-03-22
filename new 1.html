@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+    <meta charset="UTF-8">
+    <title>Mind Support</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			font-size: 15px;
+		}
+		nav{
+			background-color: #333;
+			margin: 0;
+			overflow: hidden; 
+		}
+		nav ul{
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li{
+			display: inline-block;
+			list-style-type: none;
+		}
+		nav > ul > li > a {
+			color: #aaa;
+			background: #FF0;
+			display: block;
+			line-height: 2em;
+			padding: 0.5em 0.5em;
+			text-decoration: none;
+		}
+		nav li > ul li{
+			display: block;
+		}
+		nav li > ul li a {
+			color: #111;
+			display: block;
+			line-height: 2em;
+			padding: 0.5em 2em;
+			text-decoration: none;
+		}
+		nav li:hover {
+			background-color: #666;
+		}
+		nav li:hover > ul {
+			position: absolute;
+			display: block; 
+		}
+		nav li>ul{
+			display:none;
+		}
+	</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li>
+				<a href="todo.html">To Do</a>
+				<ul>
+					<li><a href="schoolplanner.html">School Planner</a></li>
+					<li><a href="calendar.html">Calendar</a></li>
+					<li><a href="todolist.html">To Do List</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="selfhelp.html">Self Help</a>
+				<ul>
+					<li><a href="anxietycalmingexercises.html">Anxiety Calming Exercises</a></li>
+					<li><a href="gettingthroughdepression.html">Getting Through a Depressive Episode</a></li>
+					<li><a href="addandadhdtips.html">Tips on Focusing With ADD/ADHD</a></li>
+					<li><a href="selfharm.html">Self Harm Recovery</a></li>
+				</ul>
+			</li>
+        </ul>
+    </nav>
+</body>
+</html>
